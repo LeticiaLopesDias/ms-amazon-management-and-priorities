@@ -141,7 +141,7 @@ plot(mod5)
 
 rsquared(mod3)
 
-# Criando o diagrama manualmente com os rótulos personalizados (incluindo os valores de R²)
+# Creating the diagram manually with custom labels (including R² values)
 graph_code <- "
   digraph SEM {
     graph [layout = dot, rankdir = LR]
@@ -155,7 +155,7 @@ graph_code <- "
 { rank=same; fin_res; hum_res }
     
     
-    manag_index [label = 'Management index\\nR² = 0.62']  
+    manag_index [label = 'Management index\\nR² = 0.64']  
     in_def [label = 'Inner deforestation\\nR² = 0.51']  
     ext_def [label = 'Surrounding deforestation\\nR² = 0.39'] 
     hum_res [label = 'Human resources\\nR² = 0.02']
@@ -164,16 +164,16 @@ graph_code <- "
     sphere [label = 'Sphere']
     arpa [label = 'ARPA support']
 
-    # Definir arestas (relações entre variáveis)
+    # Define edges
     hum_res -> manag_index [label = '0.40', penwidth = 1.4]
-    fin_res -> manag_index [label = '0.36', penwidth = 1.36]
-    arpa -> manag_index [label = '0.29', penwidth = 1.29]
-    ext_def -> in_def [label = '0.67', penwidth = 1.67]
+    fin_res -> manag_index [label = '0.35', penwidth = 1.35]
+    arpa -> manag_index [label = '0.50', penwidth = 1.50]
+    ext_def -> in_def [label = '0.71', penwidth = 1.71]
     hq_dist -> in_def [style=dashed]  # non-significant
     manag_index -> in_def [label = '-0.11', penwidth = 1.11]
-    sphere -> hum_res [xlabel = '-0.13', penwidth = 1.13]
-    sphere -> fin_res [label = '-0.40', penwidth = 1.40]
-    arpa -> fin_res [label = '0.35', penwidth = 1.35]
+    sphere -> hum_res [xlabel = '-0.26', penwidth = 1.26]
+    sphere -> fin_res [label = '-0.79', penwidth = 1.79]
+    arpa -> fin_res [label = '0.70', penwidth = 1.70]
     hq_dist -> ext_def [label = '-0.63', penwidth = 1.63]
     hum_res -> fin_res [dir=both, color=gray, label = '0.41', penwidth = 1.41] # correlation
   }

@@ -25,9 +25,9 @@
 <!-- sphere&#45;&gt;fin_res -->
 <g id="edge8" class="edge">
 <title>sphere&#45;&gt;fin_res</title>
-<path fill="none" stroke="#000000" stroke-width="1.4" d="M64.8453,-83.8628C83.1707,-78.4384 107.9802,-71.0946 130.394,-64.46"/>
-<polygon fill="#000000" stroke="#000000" stroke-width="1.4" points="131.5631,-67.7641 140.1584,-61.5696 129.5762,-61.052 131.5631,-67.7641"/>
-<text text-anchor="middle" x="107.7433" y="-80.1331" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;0.40</text>
+<path fill="none" stroke="#000000" stroke-width="1.79" d="M64.8453,-83.8628C83.1707,-78.4384 107.9802,-71.0946 130.394,-64.46"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="1.79" points="131.5631,-67.7641 140.1584,-61.5696 129.5762,-61.052 131.5631,-67.7641"/>
+<text text-anchor="middle" x="107.7433" y="-80.1331" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;0.79</text>
 </g>
 <!-- hum_res -->
 <g id="node6" class="node">
@@ -39,9 +39,9 @@
 <!-- sphere&#45;&gt;hum_res -->
 <g id="edge7" class="edge">
 <title>sphere&#45;&gt;hum_res</title>
-<path fill="none" stroke="#000000" stroke-width="1.13" d="M64.7054,-97.3841C73.7508,-99.1798 83.8862,-101.1679 93.163,-102.9331 106.0216,-105.3798 119.8934,-107.9507 132.9013,-110.3313"/>
-<polygon fill="#000000" stroke="#000000" stroke-width="1.13" points="132.6465,-113.8425 143.1123,-112.1937 133.9026,-106.9561 132.6465,-113.8425"/>
-<text text-anchor="middle" x="89.0087" y="-109.1032" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;0.13</text>
+<path fill="none" stroke="#000000" stroke-width="1.26" d="M64.7054,-97.3841C73.7508,-99.1798 83.8862,-101.1679 93.163,-102.9331 106.0216,-105.3798 119.8934,-107.9507 132.9013,-110.3313"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="1.26" points="132.6465,-113.8425 143.1123,-112.1937 133.9026,-106.9561 132.6465,-113.8425"/>
+<text text-anchor="middle" x="89.0087" y="-109.1032" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;0.26</text>
 </g>
 <!-- arpa -->
 <g id="node2" class="node">
@@ -52,23 +52,23 @@
 <!-- arpa&#45;&gt;fin_res -->
 <g id="edge9" class="edge">
 <title>arpa&#45;&gt;fin_res</title>
-<path fill="none" stroke="#000000" stroke-width="1.35" d="M75.4755,-33.7768C92.0953,-35.9011 111.9438,-38.4382 130.2173,-40.7739"/>
-<polygon fill="#000000" stroke="#000000" stroke-width="1.35" points="129.8135,-44.2507 140.1766,-42.047 130.7011,-37.3072 129.8135,-44.2507"/>
-<text text-anchor="middle" x="107.7433" y="-44.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.35</text>
+<path fill="none" stroke="#000000" stroke-width="1.7" d="M75.4755,-33.7768C92.0953,-35.9011 111.9438,-38.4382 130.2173,-40.7739"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="1.7" points="129.8135,-44.2507 140.1766,-42.047 130.7011,-37.3072 129.8135,-44.2507"/>
+<text text-anchor="middle" x="107.7433" y="-44.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.70</text>
 </g>
 <!-- manag_index -->
 <g id="node7" class="node">
 <title>manag_index</title>
 <polygon fill="none" stroke="#000000" points="385.5111,-65.9331 292.6691,-65.9331 292.6691,-29.9331 385.5111,-29.9331 385.5111,-65.9331"/>
 <text text-anchor="middle" x="339.0901" y="-50.9331" font-family="Times,serif" font-size="10.00" fill="#000000">Management index</text>
-<text text-anchor="middle" x="339.0901" y="-38.9331" font-family="Times,serif" font-size="10.00" fill="#000000">R² = 0.62</text>
+<text text-anchor="middle" x="339.0901" y="-38.9331" font-family="Times,serif" font-size="10.00" fill="#000000">R² = 0.64</text>
 </g>
 <!-- arpa&#45;&gt;manag_index -->
 <g id="edge3" class="edge">
 <title>arpa&#45;&gt;manag_index</title>
-<path fill="none" stroke="#000000" stroke-width="1.29" d="M75.4837,-16.9489C114.8694,-6.1632 178.1755,6.486 232.1296,-4.1331 253.6885,-8.3763 276.3735,-17.003 295.277,-25.4871"/>
-<polygon fill="#000000" stroke="#000000" stroke-width="1.29" points="293.9648,-28.7363 304.5108,-29.7531 296.9007,-22.3817 293.9648,-28.7363"/>
-<text text-anchor="middle" x="186.2266" y="-9.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.29</text>
+<path fill="none" stroke="#000000" stroke-width="1.5" d="M75.4837,-16.9489C114.8694,-6.1632 178.1755,6.486 232.1296,-4.1331 253.6885,-8.3763 276.3735,-17.003 295.277,-25.4871"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="1.5" points="293.9648,-28.7363 304.5108,-29.7531 296.9007,-22.3817 293.9648,-28.7363"/>
+<text text-anchor="middle" x="186.2266" y="-9.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.50</text>
 </g>
 <!-- hq_dist -->
 <g id="node3" class="node">
@@ -107,9 +107,9 @@
 <!-- fin_res&#45;&gt;manag_index -->
 <g id="edge2" class="edge">
 <title>fin_res&#45;&gt;manag_index</title>
-<path fill="none" stroke="#000000" stroke-width="1.36" d="M232.0907,-47.9331C247.8944,-47.9331 265.7855,-47.9331 282.352,-47.9331"/>
-<polygon fill="#000000" stroke="#000000" stroke-width="1.36" points="282.4653,-51.4332 292.4653,-47.9331 282.4653,-44.4332 282.4653,-51.4332"/>
-<text text-anchor="middle" x="262.3796" y="-52.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.36</text>
+<path fill="none" stroke="#000000" stroke-width="1.35" d="M232.0907,-47.9331C247.8944,-47.9331 265.7855,-47.9331 282.352,-47.9331"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="1.35" points="282.4653,-51.4332 292.4653,-47.9331 282.4653,-44.4332 282.4653,-51.4332"/>
+<text text-anchor="middle" x="262.3796" y="-52.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.35</text>
 </g>
 <!-- hum_res&#45;&gt;fin_res -->
 <g id="edge11" class="edge">
@@ -136,9 +136,9 @@
 <!-- ext_def&#45;&gt;in_def -->
 <g id="edge4" class="edge">
 <title>ext_def&#45;&gt;in_def</title>
-<path fill="none" stroke="#000000" stroke-width="1.67" d="M607.7557,-71.2765C589.8469,-67.5152 570.3082,-63.4115 552.6777,-59.7087"/>
-<polygon fill="#000000" stroke="#000000" stroke-width="1.67" points="553.0503,-56.2107 542.5444,-57.5805 551.6115,-63.0612 553.0503,-56.2107"/>
-<text text-anchor="middle" x="575.0895" y="-72.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.67</text>
+<path fill="none" stroke="#000000" stroke-width="1.71" d="M607.7557,-71.2765C589.8469,-67.5152 570.3082,-63.4115 552.6777,-59.7087"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="1.71" points="553.0503,-56.2107 542.5444,-57.5805 551.6115,-63.0612 553.0503,-56.2107"/>
+<text text-anchor="middle" x="575.0895" y="-72.1331" font-family="Times,serif" font-size="14.00" fill="#000000">0.71</text>
 </g>
 </g>
 </svg>
