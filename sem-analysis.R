@@ -132,7 +132,7 @@ mod5 <- psem(
 )
 
 summary(mod5)
-# Higher AIC than mod3
+# Lower AIC than mod3
 plot(mod5)
 
 
@@ -151,12 +151,12 @@ graph_code <- "
     
     # Group nodes
 { rank=same; sphere;  arpa }
-{ rank=same; hq_dist; in_def }
+{ rank=same; hq_dist; ext_def }
 { rank=same; fin_res; hum_res }
     
     
     manag_index [label = 'Management index\\nR² = 0.64']  
-    in_def [label = 'Inner deforestation\\nR² = 0.51']  
+    in_def [label = 'Inner deforestation\\nR² = 0.50']  
     ext_def [label = 'Surrounding deforestation\\nR² = 0.39'] 
     hum_res [label = 'Human resources\\nR² = 0.02']
     fin_res [label = 'Financial resources\\nR² = 0.34']
@@ -165,16 +165,16 @@ graph_code <- "
     arpa [label = 'ARPA support']
 
     # Define edges
-    hum_res -> manag_index [label = '0.40', penwidth = 1.4]
-    fin_res -> manag_index [label = '0.36', penwidth = 1.35]
-    arpa -> manag_index [label = '0.29', penwidth = 1.29]
-    ext_def -> in_def [label = '0.67', penwidth = 1.67]
+    hum_res -> manag_index [label = '0.39', penwidth = 1.39]
+    fin_res -> manag_index [label = '0.35', penwidth = 1.35]
+    arpa -> manag_index [label = '0.25', penwidth = 1.25]
+    ext_def -> in_def [label = '0.71', penwidth = 1.71]
     hq_dist -> in_def [style=dashed]  # non-significant
-    manag_index -> in_def [label = '-0.11', penwidth = 1.11]
+    in_def -> manag_index [label = '-0.13', penwidth = 1.13]
     sphere -> hum_res [xlabel = '-0.13', penwidth = 1.13]
     sphere -> fin_res [label = '-0.40', penwidth = 1.40]
     arpa -> fin_res [label = '0.35', penwidth = 1.35]
-    hq_dist -> ext_def [label = '-0.63', penwidth = 1.63]
+    hq_dist -> ext_def [penwidth = 1.63] # label added manually
     hum_res -> fin_res [dir=both, color=gray, label = '0.41', penwidth = 1.41] # correlation
   }
 "
