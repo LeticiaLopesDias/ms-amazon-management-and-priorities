@@ -188,7 +188,7 @@ writeLines(svg_graph, "Fig1.svg")
 
 # Compute partial residuals
 
-presid1 <- partialResid(in_def ~ manag_index, mod3)
+presid1 <- partialResid(manag_index ~ in_def, mod5)
 plot(presid1)
 head(presid1)
 
@@ -197,12 +197,12 @@ g1 <-
          aes(x = xresid, y = yresid)) +
   geom_point(size = 2, alpha = 0.7) +
   geom_smooth(method = lm, se = F, color = "grey20") +
-  labs(x = "Management index",
-       y = "Inner deforestation") +
+  labs(y = "Management index",
+       x = "Inner deforestation") +
   theme_classic()
 
 
-presid2 <- partialResid(in_def ~ ext_def, mod3)
+presid2 <- partialResid(in_def ~ ext_def, mod5)
 plot(presid2)
 
 g2 <- 
@@ -211,7 +211,7 @@ g2 <-
   geom_point(size = 2, alpha = 0.7) +
   geom_smooth(method = lm, se = F, color = "grey20") +
   labs(x = "Surrounding deforestation",
-       y = element_blank()) +
+       y = "Inner deforestation") +
   theme_classic()
 
 g1 + g2 + plot_annotation(tag_levels = 'A')
