@@ -11,12 +11,10 @@ authors:
     family-names: Lopes-Dias
     email: leticialssdias@gmail.com
     orcid: 'https://orcid.org/0009-0005-0337-1776'
-identifiers:
-  - type: url
-    value: https://github.com/LeticiaLopesDias/ms-amazon-management-and-priorities/
 abstract: >-
   This repository shares the code and data used on the
   manuscript "Mismatch between investment in management and
   priorities for biodiversity conservation in Amazon
   protected areas" by Lopes-Dias et al. (in press)
 date-released: 2024-11-01
+url: "https://github.com/LeticiaLopesDias/ms-amazon-management-and-priorities/"
