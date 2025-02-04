@@ -1,5 +1,5 @@
 
-# Mismatch  between investment in management and priorities for biodiversity conservation in Amazon protected areas
+# Dataset for management and priorities for biodiversity conservation in Amazon protected areas
 
 <!-- badges: start -->
 <!-- badges: end -->
